@@ -1,4 +1,4 @@
-Cypress.Commands.add('visitandoSite', () => {
+Cypress.Commands.add('visitandoSite', (visit) => {
      cy.visit('https://the-internet.herokuapp.com/iframe')
 })
 //
