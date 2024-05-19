@@ -3,7 +3,7 @@ import VerificarIframe from "../Pages/VerifcandoIframe.cy";
 
 const verifcandoIframe = new VerificarIframe();
 
-Given(' estou na página do iframe', () => {
+Given('estou na página do iframe', () => {
     cy.visitandoSite()
 })  
 
@@ -11,7 +11,7 @@ When('eu acessar o iframe', () => {
 
 })
 
-Then('o conteúdo do iframe deve conter "Your content goes here."', () => {
+Then('o conteúdo do iframe deve conter "Your content goes here.', () => {
 
 })
 
